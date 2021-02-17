@@ -1,0 +1,139 @@
+
+	*{
+		margin:0;
+		padding:0;
+		}
+	
+	header{
+	height:60px;
+	background:#262626;
+	padding:0 50px;
+	}
+
+	footer{
+		height:60px;
+		background:#00ccff;
+		padding:0 50px;
+		position: fixed;
+		bottom: 0px;
+		width: 94%;
+		}
+
+	.logo{
+	width:30%;
+	float:left;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:60px;
+	font-size:35px;
+	font-family:sans-serif;
+	}
+	nav{
+	width:68%;
+	float:right;
+	}
+	nav ul{
+	list-style:none;
+	float:right;
+	}
+	nav ul li{
+	display: inline-block;
+	}
+	nav ul li a{
+	text-decoration: none;
+	color:#fff;
+	font-family:sans-serif;
+	font-weight:bold;
+	margin:0 10px;
+	line-height:60px;
+	text-transform:uppercase;
+	}
+	.banner{
+	height:100%;
+	}
+	.banner img{
+	width:100%;
+	height:90vh;
+	}
+
+	body{
+		background-color: whitesmoke;
+	
+	}
+
+	input{
+		width: 40%;
+		height: 5%;
+		border: 1px;
+		border-radius: 5px;
+		padding: 8px 15px 8px 15px;
+		margin: 5px;
+		box-shadow: 1px 1px 2px 1px grey;
+		
+	}
+
+
+	p{
+	font-size:18px;
+	line-height:1.7;
+	font-family:sans-serif;
+	margin-bottom:25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center; 
+	}
+
+
+	.table1 {
+		background-color: white;
+		width: 100% ;
+	  }
+	.table1 td,
+	.table1 th {
+		width: 50% ;
+		text-align: center; 
+	} 
+		
+	
+	form{
+		text-align: center;
+		margin:	30px auto;
+	}
+	
+	   /*
+	   @media (max-width: 600px){        
+
+	header {
+	 width: 100%;
+	 height: 100%;
+	 padding: 0;
+	 text-align: center;
+	}
+	.logo {
+	 width: 100%;
+	 float: none;
+	}
+	nav {
+	 width: 100%;
+	 float: none;
+	}
+	nav ul li {
+	 display: block;
+	}
+	nav ul {
+	 float: none;
+	}
+	
+	input{
+		width: 40%;
+		height: 5%;
+		border: 1px;
+		border-radius: 5px;
+		padding: 8px 15px 8px 15px;
+		margin: 0px 15px;
+		box-shadow: 1px 1px 2px 1px grey;
+		
+	}
+}
+*/
